@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930044914604",
+    "project_id": "artixspy",
+    "storage_bucket": "artixspy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930044914604:android:4817e18ba1e6119a5a2809",
+        "android_client_info": {
+          "package_name": "com.example.artixspy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930044914604-k9nmhnscsubvrp3suopk3jc8dhusuqhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhSSWinO7xEZ5aDs0an1M9kMyYbzHoJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930044914604-k9nmhnscsubvrp3suopk3jc8dhusuqhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

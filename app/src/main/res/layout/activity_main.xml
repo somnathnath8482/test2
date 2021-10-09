@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Chenge String"
+    android:textSize="20dp"
+    android:id="@+id/banner"
+    android:layout_marginBottom="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_below="@id/banner"
+    android:id="@+id/str"
+    android:layout_marginBottom="30dp"
+    android:hint="Enter String"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/display"
+    android:visibility="gone"
+    android:layout_marginBottom="30dp"
+    android:layout_below="@id/str"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="300dp"
+    android:text="chenge"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/chenge"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/hide"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/chenge"
+    android:text="Hide"
+    />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6858298374856077/3280241945">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
